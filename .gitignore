@@ -9,9 +9,17 @@ target/
 .classpath
 .factorypath
 .project
-.settings
+.settings/
+bin/
 .springBeans
 .sts4-cache
+
+### Ignore Maven build files ###
+target/
+
+### Ignore Maven build files ###
+*.log
+*.tmp
 
 ### IntelliJ IDEA ###
 .idea
@@ -31,3 +39,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### ignore environment-specific files ###
+application.properties
